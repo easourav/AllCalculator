@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuMain"
+        android:title="menu"
+        android:icon="@drawable/menu_drawable"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/menuStandartCalculator"
+                android:title="scintific calculator"
+                />
+            <item
+                android:id="@+id/menuScintific"
+                android:title="Standart Calculator"
+                />
+            <item
+                android:id="@+id/menuUnitConverter"
+                android:title="Unit Converter">
+                <menu>
+                    <item
+                        android:id="@+id/subMenuArea"
+                        android:title="Area"
+                        />
+                    <item
+                        android:id="@+id/subMenuLength"
+                        android:title="Length"
+                        />
+                    <item
+                        android:id="@+id/subMenuWeight"
+                        android:title="Weight"
+                        />
+                    <item
+                        android:id="@+id/subMenuTemperature"
+                        android:title="emperature"
+                        />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menuAbout"
+                android:title="About" />
+        </menu>
+    </item>
+
+
+</menu>
